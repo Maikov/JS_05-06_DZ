@@ -8,31 +8,6 @@ body {
   background-size: 100%;
 }
 
-/*
-#display-id {
-    background: transparent;
-    width: 233px;
-    font-size: 54px;
-    color: red;
-    display: inline-block;
-    float: left;
-    margin-top: 100px;
-    margin-left: 80px;
-    border: none;
-    padding: 0;
-}
-#display-id-mls {
-  background: transparent;
-    width: 88px;
-    font-size: 54px;
-    color: red;
-    display: inline-block;
-    margin-top: 100px;
-    border: none;
-    padding: 0;
-}*/
-
-
 #stopwatch {
     width: 550px;
     margin: 100px auto 0;
