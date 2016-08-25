@@ -1,10 +1,5 @@
 var clocktimer, dateObj, dh, dm, ds, ms; 
-var timeField=''; 
-var h = 1; 
-var m = 1; 
-var tm = 1; 
-var s = 0; 
-var ts = 0; 
+var timeField = ''; 
 var ms = 0; 
 var show = true; 
 var init = 0; 
@@ -14,13 +9,13 @@ function reset() {
   clearTimeout(clocktimer); 
   init = 0; show = true; 
   timeField = '00:00:00.000'; 
-  document.StopWatch.Watch.value=timeField; 
+  document.StopWatch.Watch.value = timeField; 
   var CF = document.StopWatch; 
   ii = 0; } 
 
 function upTime() { 
   var cdateObj = new Date(); 
-  var t = (cdateObj.getTime() - dateObj.getTime()) - (s*1000); 
+  var t = (cdateObj.getTime() - dateObj.getTime()); 
   var ms = Math.floor((t % 1000)) + 000;
   var ds = Math.floor((t / 1000) % 60);
   var dm = Math.floor((t / 1000 / 60) % 60);
