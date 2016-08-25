@@ -9,15 +9,17 @@ body {
 }
 
 #stopwatch {
-    width: 550px;
+    width: 580px;
     margin: 100px auto 0;
     display: block;
 } 
 
 .time {
-  font-family: 'Electrolize', sans-serif;
+/*  font-family: 'Electrolize', monospace;*/
+  font-family: 'Lucida Console', Tahoma, Arial sans-serif;
+  font-variant-numeric: tabular-nums;
   background: transparent;
-  width: 550px;
+  width: 580px;
   height: 100px;
   margin: 0 auto;
   font-size: 80px;
