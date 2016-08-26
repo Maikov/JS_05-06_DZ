@@ -32,14 +32,16 @@ function upTime() {
 function findTIME() { 
   if (init == 0) { dateObj = new Date(); 
   upTime(); 
-
   init=1; 
-  } else { if(show == true) { 
-  	
+ 
+  } else { 
+
+  if(show == true) { 
+  
   show = false; 
 
-  } else { show = true; } } 
+  } else { show = true; } 
+  } 
 } 
-
 document.getElementById('btn_start').addEventListener("click", findTIME);
 document.getElementById('btn_stop').addEventListener("click", reset);
